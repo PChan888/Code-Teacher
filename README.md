@@ -18,7 +18,7 @@ Everything runs locally with rule-based logic. **No code ever leaves your machin
 
 1. Download the latest `code-translator-x.y.z.vsix` file (from this repo's Releases page, or from whoever shared it with you).
 2. Open VS Code.
-3. Open the Extensions panel (`Ctrl+Shift+X`).
+3. Open the Extensions panel (`Ctrl+Shift+X` — Mac: `Cmd+Shift+X`).
 4. Click the `···` menu at the top of the panel → **Install from VSIX...**
 5. Pick the downloaded file. Done — no restart needed.
 
@@ -38,14 +38,14 @@ Then open the folder in VS Code and press **F5** — a second VS Code window ope
 ## How to use
 
 1. Open any C file (a file ending in `.c`).
-2. Open the panel: `Ctrl+Shift+P` → **Code Translator: Open Panel**. (After the first time, it's usually already there in the Secondary Side Bar.)
+2. Open the panel: `Ctrl+Shift+P` (Mac: `Cmd+Shift+P`) → **Code Translator: Open Panel**. (After the first time, it's usually already there in the Secondary Side Bar.)
 3. Click on any line of code. The panel updates automatically as your cursor moves — that's it. There's nothing else to learn.
 
 If a line shows "I can't break this line down yet," that's intentional: the extension only explains what it's sure about, and never guesses.
 
 ## Where the panel lives
 
-Code Translator opens in the **Secondary Side Bar** — the same right-hand panel area used by tools like GitHub Copilot Chat — rather than the main editor area, so it never covers or splits your code. If the Secondary Side Bar isn't visible, open it with **View → Appearance → Secondary Side Bar**, or **Ctrl+Alt+B**.
+Code Translator opens in the **Secondary Side Bar** — the same right-hand panel area used by tools like GitHub Copilot Chat — rather than the main editor area, so it never covers or splits your code. If the Secondary Side Bar isn't visible, open it with **View → Appearance → Secondary Side Bar**, or **Ctrl+Alt+B** (Mac: **Cmd+Option+B**).
 
 You can still drag the Code Translator icon to the left Activity Bar (or anywhere else) if you prefer a different layout — that's a normal VS Code per-user preference, not something the extension controls.
 
@@ -53,7 +53,7 @@ You can still drag the Code Translator icon to the left Activity Bar (or anywher
 
 ## Settings
 
-Open Settings (`Ctrl+,`) and search for "Code Translator":
+Open Settings (`Ctrl+,` — Mac: `Cmd+,`) and search for "Code Translator":
 
 | Setting | Default | What it does |
 |---|---|---|
