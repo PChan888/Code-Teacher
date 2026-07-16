@@ -14,13 +14,21 @@ Everything runs locally with rule-based logic. **No code ever leaves your machin
 
 ## Installation
 
-### From a .vsix file (recommended for testers)
+### Step 1 — Get the installer file
 
-1. Download the latest `code-translator-x.y.z.vsix` file (from this repo's Releases page, or from whoever shared it with you).
-2. Open VS Code.
-3. Open the Extensions panel (`Ctrl+Shift+X` — Mac: `Cmd+Shift+X`).
-4. Click the `···` menu at the top of the panel → **Install from VSIX...**
-5. Pick the downloaded file. Done — no restart needed.
+The installer is a file ending in `.vsix` (think of it as a zip that VS Code knows how to install).
+
+- Go to this repo's **[Releases page](https://github.com/PChan888/Code-Teacher/releases)** and download the `.vsix` file from the newest release.
+- Or use the file directly if someone sent it to you.
+
+> Don't use the green "Code → Download ZIP" button — that's the source code for developers, not the installer.
+
+### Step 2 — Install it in VS Code
+
+1. Open VS Code.
+2. Open the Extensions panel: click the four-squares icon in the left bar (or `Ctrl+Shift+X` — Mac: `Cmd+Shift+X`).
+3. At the top of that panel, click the `···` (three dots) → **Install from VSIX...**
+4. Pick the `.vsix` file you downloaded. The extension installs instantly — no restart needed.
 
 ### From source (for contributors)
 

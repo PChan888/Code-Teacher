@@ -1,8 +1,9 @@
 {
   "name": "code-translator",
   "displayName": "Code Translator",
+  "publisher": "PChan888",
   "description": "Explains C code line by line in plain English",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.106.0"
   },
@@ -41,14 +42,17 @@
       "properties": {
         "codeTranslator.docsProvider": {
           "type": "string",
-          "enum": ["cppreference", "geeksforgeeks"],
+          "enum": [
+            "cppreference",
+            "geeksforgeeks"
+          ],
           "default": "cppreference",
           "description": "Which site opens when clicking a documentation link in the Syntax Breakdown."
         },
         "codeTranslator.ai.enabled": {
           "type": "boolean",
           "default": false,
-          "description": "Enable the optional 'Deeper Dive' AI explanation using a local Ollama model. Requires Ollama running on localhost — the extension is fully functional without it, and this makes zero network calls unless enabled."
+          "description": "Enable the optional 'Deeper Dive' AI explanation using a local Ollama model. Requires Ollama running on localhost \u2014 the extension is fully functional without it, and this makes zero network calls unless enabled."
         },
         "codeTranslator.ai.model": {
           "type": "string",
@@ -68,5 +72,10 @@
     "@types/vscode": "^1.85.0",
     "typescript": "^5.3.0",
     "vitest": "^4.1.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PChan888/Code-Teacher.git"
+  },
+  "license": "MIT"
 }
